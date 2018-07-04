@@ -1,0 +1,46 @@
+PODS:
+  - CryptoSwift (0.10.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.7.0):
+    - GoogleMaps (= 2.7.0)
+    - GooglePlaces (= 2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - IQKeyboardManager (6.0.3)
+  - SwiftWebSocket (2.7.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - GoogleMaps
+  - GooglePlacePicker
+  - IQKeyboardManager
+  - SwiftWebSocket
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - IQKeyboardManager
+    - SwiftWebSocket
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  SwiftWebSocket: 612c9729fd503cb6b0b8b45390c788686dac306f
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 5b1dbe8352ab6b701e3c42510341e20d48aac369
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9941C8BB208F7B3B004819E9 /* DispecerdenCavabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9941C8BA208F7B3B004819E9 /* DispecerdenCavabController.swift */; };
+		9941C8BD208F7E19004819E9 /* CatdimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9941C8BC208F7E19004819E9 /* CatdimViewController.swift */; };
+		9941C8BF208F97B6004819E9 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9941C8BE208F97B6004819E9 /* RepeatingTimer.swift */; };
+		994C426F20C890B90063FB33 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C426E20C890B90063FB33 /* ErrorViewController.swift */; };
+		994C9EAC20904DA100D24BA2 /* BitdiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C9EAB20904DA100D24BA2 /* BitdiViewController.swift */; };
+		995866FB20C6A07D000246C6 /* AZN-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 995866F920C6A079000246C6 /* AZN-Regular.otf */; };
+		995866FC20C6A07D000246C6 /* AZN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 995866FA20C6A07B000246C6 /* AZN-Bold.otf */; };
+		99666F4720BF0A4300FC18AE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99666F4620BF0A4300FC18AE /* RootViewController.swift */; };
+		996BFE2F208DF6C30031D7CF /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BFE2E208DF6C30031D7CF /* UIViewX.swift */; };
+		9973B53720C9942E00D950CD /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973B53620C9942E00D950CD /* ExternalAccessory.framework */; };
+		997D2BB220BABD2A00E8D2E7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997D2BB120BABD2A00E8D2E7 /* TabBarViewController.swift */; };
+		997D2BB520BAC56900E8D2E7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997D2BB420BAC56900E8D2E7 /* Functions.swift */; };
+		997D2BB720BAC66500E8D2E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997D2BB620BAC66500E8D2E7 /* Constants.swift */; };
+		9986A5C220BD70D9001114DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986A5C120BD70D9001114DF /* LoginViewController.swift */; };
+		9986A5C420BD8CC2001114DF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986A5C320BD8CC2001114DF /* Extension.swift */; };
+		9986A5C620BD8E69001114DF /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986A5C520BD8E69001114DF /* Socket.swift */; };
+		9986A5C820BEDE32001114DF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986A5C720BEDE32001114DF /* Router.swift */; };
+		9995AA2720C005C100229C3F /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995AA2620C005C100229C3F /* Responses.swift */; };
+		9995AA2920C0064100229C3F /* AssignedPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995AA2820C0064100229C3F /* AssignedPriceViewController.swift */; };
+		99AF8CFB208BBE0000D58ED3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF8CFA208BBE0000D58ED3 /* User.swift */; };
+		99AF8CFD208BC2D600D58ED3 /* SifarisElaveEtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF8CFC208BC2D600D58ED3 /* SifarisElaveEtViewController.swift */; };
+		99BB78CF20C716FD0043DBAE /* NoInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB78CE20C716FD0043DBAE /* NoInternetViewController.swift */; };
+		99BF7CE220C676A400004DD9 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF7CE120C676A400004DD9 /* NewOrderViewController.swift */; };
+		99C81F0620C6AE4800A80916 /* SifarislerFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C81F0520C6AE4800A80916 /* SifarislerFlowLayout.swift */; };
+		99CC3BD6208B728B002AE29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC3BD5208B728B002AE29D /* AppDelegate.swift */; };
+		99CC3BDB208B728B002AE29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CC3BD9208B728B002AE29D /* Main.storyboard */; };
+		99CC3BDD208B728D002AE29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CC3BDC208B728D002AE29D /* Assets.xcassets */; };
+		99CC3BE0208B728D002AE29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CC3BDE208B728D002AE29D /* LaunchScreen.storyboard */; };
+		99D0D73220C195F200DB2A16 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D0D73120C195F200DB2A16 /* Notifications.swift */; };
+		99D0D73420C1B12A00DB2A16 /* TamamlaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D0D73320C1B12A00DB2A16 /* TamamlaViewController.swift */; };
+		99D51429208B7A5300C83A1E /* SifarisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D51428208B7A5300C83A1E /* SifarisCell.swift */; };
+		99D5142D208B7D5D00C83A1E /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5142C208B7D5C00C83A1E /* UIButtonX.swift */; };
+		99D5142F208BB3B200C83A1E /* SifarislerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5142E208BB3B200C83A1E /* SifarislerViewController.swift */; };
+		D7DDD4BEB5B9922F98FB7501 /* Pods_ALO_Surucu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CAB4C454EDED51B564DAB8 /* Pods_ALO_Surucu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		544C13579C2D2CE28C40B5A5 /* Pods-ALO Surucu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALO Surucu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu.debug.xcconfig"; sourceTree = "<group>"; };
+		9941C8BA208F7B3B004819E9 /* DispecerdenCavabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispecerdenCavabController.swift; sourceTree = "<group>"; };
+		9941C8BC208F7E19004819E9 /* CatdimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatdimViewController.swift; sourceTree = "<group>"; };
+		9941C8BE208F97B6004819E9 /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		994C426E20C890B90063FB33 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		994C9EAB20904DA100D24BA2 /* BitdiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitdiViewController.swift; sourceTree = "<group>"; };
+		995866F920C6A079000246C6 /* AZN-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AZN-Regular.otf"; sourceTree = "<group>"; };
+		995866FA20C6A07B000246C6 /* AZN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AZN-Bold.otf"; sourceTree = "<group>"; };
+		99666F4620BF0A4300FC18AE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		996BFE2E208DF6C30031D7CF /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		9973B53320C993F100D950CD /* ALO Surucu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ALO Surucu.entitlements"; sourceTree = "<group>"; };
+		9973B53620C9942E00D950CD /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		997D2BB120BABD2A00E8D2E7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		997D2BB420BAC56900E8D2E7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		997D2BB620BAC66500E8D2E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9986A5C120BD70D9001114DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9986A5C320BD8CC2001114DF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9986A5C520BD8E69001114DF /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		9986A5C720BEDE32001114DF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9995AA2620C005C100229C3F /* Responses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		9995AA2820C0064100229C3F /* AssignedPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignedPriceViewController.swift; sourceTree = "<group>"; };
+		99AF8CFA208BBE0000D58ED3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		99AF8CFC208BC2D600D58ED3 /* SifarisElaveEtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisElaveEtViewController.swift; sourceTree = "<group>"; };
+		99BB78CE20C716FD0043DBAE /* NoInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetViewController.swift; sourceTree = "<group>"; };
+		99BF7CE120C676A400004DD9 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		99C81F0520C6AE4800A80916 /* SifarislerFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarislerFlowLayout.swift; sourceTree = "<group>"; };
+		99CAB4C454EDED51B564DAB8 /* Pods_ALO_Surucu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALO_Surucu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CC3BD2208B728B002AE29D /* ALO Surucu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALO Surucu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CC3BD5208B728B002AE29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CC3BDA208B728B002AE29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99CC3BDC208B728D002AE29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CC3BDF208B728D002AE29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CC3BE1208B728D002AE29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D0D73120C195F200DB2A16 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		99D0D73320C1B12A00DB2A16 /* TamamlaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamamlaViewController.swift; sourceTree = "<group>"; };
+		99D51428208B7A5300C83A1E /* SifarisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisCell.swift; sourceTree = "<group>"; };
+		99D5142C208B7D5C00C83A1E /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		99D5142E208BB3B200C83A1E /* SifarislerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarislerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99FCAC0E20C9AC8B00BE26F2 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD055E34E848ACD34ECD7B98 /* Pods-ALO Surucu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALO Surucu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CC3BCF208B728B002AE29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973B53720C9942E00D950CD /* ExternalAccessory.framework in Frameworks */,
+				D7DDD4BEB5B9922F98FB7501 /* Pods_ALO_Surucu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B2E6309FE9F9AA04C409BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				544C13579C2D2CE28C40B5A5 /* Pods-ALO Surucu.debug.xcconfig */,
+				AD055E34E848ACD34ECD7B98 /* Pods-ALO Surucu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		995866F820C6A050000246C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				995866FA20C6A07B000246C6 /* AZN-Bold.otf */,
+				995866F920C6A079000246C6 /* AZN-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		996BFE30208DF6CA0031D7CF /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				996BFE2E208DF6C30031D7CF /* UIViewX.swift */,
+				99D5142C208B7D5C00C83A1E /* UIButtonX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		997D2BB320BAC55E00E8D2E7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				99D0D73120C195F200DB2A16 /* Notifications.swift */,
+				9995AA2620C005C100229C3F /* Responses.swift */,
+				9941C8BE208F97B6004819E9 /* RepeatingTimer.swift */,
+				997D2BB620BAC66500E8D2E7 /* Constants.swift */,
+				997D2BB420BAC56900E8D2E7 /* Functions.swift */,
+				9986A5C720BEDE32001114DF /* Router.swift */,
+				9986A5C520BD8E69001114DF /* Socket.swift */,
+				9986A5C320BD8CC2001114DF /* Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		99CC3BC9208B728A002AE29D = {
+			isa = PBXGroup;
+			children = (
+				99CC3BD4208B728B002AE29D /* ALO Surucu */,
+				99CC3BD3208B728B002AE29D /* Products */,
+				75B2E6309FE9F9AA04C409BA /* Pods */,
+				C95EF2FD69CAA80A3BB5CD05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99CC3BD3208B728B002AE29D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CC3BD2208B728B002AE29D /* ALO Surucu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CC3BD4208B728B002AE29D /* ALO Surucu */ = {
+			isa = PBXGroup;
+			children = (
+				9973B53320C993F100D950CD /* ALO Surucu.entitlements */,
+				99CC3BE1208B728D002AE29D /* Info.plist */,
+				99CC3BD5208B728B002AE29D /* AppDelegate.swift */,
+				99CC3BDC208B728D002AE29D /* Assets.xcassets */,
+				99D5142A208B7A5600C83A1E /* Cell */,
+				99D5142B208B7A5E00C83A1E /* Controller */,
+				996BFE30208DF6CA0031D7CF /* DesignableX */,
+				995866F820C6A050000246C6 /* Fonts */,
+				997D2BB320BAC55E00E8D2E7 /* Helpers */,
+				99CC3BDE208B728D002AE29D /* LaunchScreen.storyboard */,
+				99CC3BD9208B728B002AE29D /* Main.storyboard */,
+				99D51425208B76FB00C83A1E /* Model */,
+			);
+			path = "ALO Surucu";
+			sourceTree = "<group>";
+		};
+		99D51425208B76FB00C83A1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99AF8CFA208BBE0000D58ED3 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99D5142A208B7A5600C83A1E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				99D51428208B7A5300C83A1E /* SifarisCell.swift */,
+				99C81F0520C6AE4800A80916 /* SifarislerFlowLayout.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		99D5142B208B7A5E00C83A1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				994C426E20C890B90063FB33 /* ErrorViewController.swift */,
+				99BB78CE20C716FD0043DBAE /* NoInternetViewController.swift */,
+				99BF7CE120C676A400004DD9 /* NewOrderViewController.swift */,
+				99D0D73320C1B12A00DB2A16 /* TamamlaViewController.swift */,
+				9995AA2820C0064100229C3F /* AssignedPriceViewController.swift */,
+				99666F4620BF0A4300FC18AE /* RootViewController.swift */,
+				9986A5C120BD70D9001114DF /* LoginViewController.swift */,
+				997D2BB120BABD2A00E8D2E7 /* TabBarViewController.swift */,
+				9941C8BA208F7B3B004819E9 /* DispecerdenCavabController.swift */,
+				994C9EAB20904DA100D24BA2 /* BitdiViewController.swift */,
+				9941C8BC208F7E19004819E9 /* CatdimViewController.swift */,
+				99D5142E208BB3B200C83A1E /* SifarislerViewController.swift */,
+				99AF8CFC208BC2D600D58ED3 /* SifarisElaveEtViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C95EF2FD69CAA80A3BB5CD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99FCAC0E20C9AC8B00BE26F2 /* SwiftWebSocket.framework */,
+				9973B53620C9942E00D950CD /* ExternalAccessory.framework */,
+				99CAB4C454EDED51B564DAB8 /* Pods_ALO_Surucu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CC3BD1208B728B002AE29D /* ALO Surucu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CC3BE4208B728D002AE29D /* Build configuration list for PBXNativeTarget "ALO Surucu" */;
+			buildPhases = (
+				7FAC83440D7443CB5917F85A /* [CP] Check Pods Manifest.lock */,
+				99CC3BCE208B728B002AE29D /* Sources */,
+				99CC3BCF208B728B002AE29D /* Frameworks */,
+				99CC3BD0208B728B002AE29D /* Resources */,
+				7FF09B7155CAA6CB80FBF295 /* [CP] Embed Pods Frameworks */,
+				D02499063F91C9C215F7D64A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALO Surucu";
+			productName = "ALO Surucu";
+			productReference = 99CC3BD2208B728B002AE29D /* ALO Surucu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CC3BCA208B728B002AE29D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Arsalan Iravani";
+				TargetAttributes = {
+					99CC3BD1208B728B002AE29D = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 99CC3BCD208B728B002AE29D /* Build configuration list for PBXProject "ALO Surucu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99CC3BC9208B728A002AE29D;
+			productRefGroup = 99CC3BD3208B728B002AE29D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CC3BD1208B728B002AE29D /* ALO Surucu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CC3BD0208B728B002AE29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CC3BE0208B728D002AE29D /* LaunchScreen.storyboard in Resources */,
+				99CC3BDD208B728D002AE29D /* Assets.xcassets in Resources */,
+				995866FB20C6A07D000246C6 /* AZN-Regular.otf in Resources */,
+				99CC3BDB208B728B002AE29D /* Main.storyboard in Resources */,
+				995866FC20C6A07D000246C6 /* AZN-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FAC83440D7443CB5917F85A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALO Surucu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF09B7155CAA6CB80FBF295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02499063F91C9C215F7D64A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALO Surucu/Pods-ALO Surucu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CC3BCE208B728B002AE29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D5142D208B7D5D00C83A1E /* UIButtonX.swift in Sources */,
+				99CC3BD6208B728B002AE29D /* AppDelegate.swift in Sources */,
+				99D0D73220C195F200DB2A16 /* Notifications.swift in Sources */,
+				99C81F0620C6AE4800A80916 /* SifarislerFlowLayout.swift in Sources */,
+				99AF8CFB208BBE0000D58ED3 /* User.swift in Sources */,
+				9941C8BD208F7E19004819E9 /* CatdimViewController.swift in Sources */,
+				997D2BB220BABD2A00E8D2E7 /* TabBarViewController.swift in Sources */,
+				994C426F20C890B90063FB33 /* ErrorViewController.swift in Sources */,
+				99AF8CFD208BC2D600D58ED3 /* SifarisElaveEtViewController.swift in Sources */,
+				9941C8BB208F7B3B004819E9 /* DispecerdenCavabController.swift in Sources */,
+				997D2BB720BAC66500E8D2E7 /* Constants.swift in Sources */,
+				994C9EAC20904DA100D24BA2 /* BitdiViewController.swift in Sources */,
+				9986A5C420BD8CC2001114DF /* Extension.swift in Sources */,
+				9995AA2720C005C100229C3F /* Responses.swift in Sources */,
+				99BF7CE220C676A400004DD9 /* NewOrderViewController.swift in Sources */,
+				997D2BB520BAC56900E8D2E7 /* Functions.swift in Sources */,
+				99D51429208B7A5300C83A1E /* SifarisCell.swift in Sources */,
+				9986A5C820BEDE32001114DF /* Router.swift in Sources */,
+				9986A5C620BD8E69001114DF /* Socket.swift in Sources */,
+				9941C8BF208F97B6004819E9 /* RepeatingTimer.swift in Sources */,
+				99D5142F208BB3B200C83A1E /* SifarislerViewController.swift in Sources */,
+				99BB78CF20C716FD0043DBAE /* NoInternetViewController.swift in Sources */,
+				9986A5C220BD70D9001114DF /* LoginViewController.swift in Sources */,
+				99666F4720BF0A4300FC18AE /* RootViewController.swift in Sources */,
+				99D0D73420C1B12A00DB2A16 /* TamamlaViewController.swift in Sources */,
+				9995AA2920C0064100229C3F /* AssignedPriceViewController.swift in Sources */,
+				996BFE2F208DF6C30031D7CF /* UIViewX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99CC3BD9208B728B002AE29D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CC3BDA208B728B002AE29D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99CC3BDE208B728D002AE29D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CC3BDF208B728D002AE29D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CC3BE2208B728D002AE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CC3BE3208B728D002AE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CC3BE5208B728D002AE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544C13579C2D2CE28C40B5A5 /* Pods-ALO Surucu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ALO Surucu/ALO Surucu.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7CN72P9F4;
+				INFOPLIST_FILE = "ALO Surucu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arsalan.ALO-Surucu3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99CC3BE6208B728D002AE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD055E34E848ACD34ECD7B98 /* Pods-ALO Surucu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ALO Surucu/ALO Surucu.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7CN72P9F4;
+				INFOPLIST_FILE = "ALO Surucu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arsalan.ALO-Surucu3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CC3BCD208B728B002AE29D /* Build configuration list for PBXProject "ALO Surucu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CC3BE2208B728D002AE29D /* Debug */,
+				99CC3BE3208B728D002AE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CC3BE4208B728D002AE29D /* Build configuration list for PBXNativeTarget "ALO Surucu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CC3BE5208B728D002AE29D /* Debug */,
+				99CC3BE6208B728D002AE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99CC3BCA208B728B002AE29D /* Project object */;
+}
